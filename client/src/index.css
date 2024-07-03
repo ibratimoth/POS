@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+.item-button button{
+    margin-top: 20px;
+    width: 200px;
+    background-color: green;
+    color: white;
+}
+
+/* spinner stylings */
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.spinner-border {
+    height: 100px;
+    width: 100px;
+}
+
+/* category stylings */
+.category{
+    border: 2px solid gray;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.category img{
+    margin-left: 10px;
+}
+
+.category-active{
+    border: 3px solid green;
+}
+
+/* Register stylings */
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.register input {
+    width: 400px !important;
+}
+.register-form{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 20px;
+    background-color: rgba(2, 0, 0, 0.6);
+}
+
+.register-form h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+.ant-alert{
+    height: 90px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 900;
+    align-items: center;
+}
+.ant-form-item-label >label{
+    color: white !important;
+    font-weight: 700;
+    text-align: center;
+}
+
+#invoice-POS{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 4mm;
+    margin: 0 auto;
+    width: 80mm;
+    background-color: #fff;
+}
+
+::selection{
+    background: #f31544;
+    color: #fff;
+}
+::-moz-selection{
+    background: #f31544;
+    color: #fff;
+}
+#invoice-POS h1{
+    font-size : 1.5em;
+    color: #fff;
+}
+#invoice-POS h2{
+    font-size: 1.5em;
+    color: #222;
+}
+#invoice-POS h3{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+#invoice-POS p{
+    font-size: 0.7em;
+    color: #666;
+    line-height: 1.2em;
+}
+
+#top,
+#mid,
+#bot {
+    border-bottom: 1px solid #eee;
+}
+
+#top {
+    min-height : 100px;
+}
+#bot{
+    min-height: 50px;
+}
+
+#top .logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    background: url('https://img.freepik.com/free-vector/branding-identity-corporate-vector-logo-design_460848-13919.jpg?w=826&t=st=1719400948~exp=1719401548~hmac=b201f8cef47e7fb7c803368f4e63f83c39e0fada82db3a5336a565739ec9f55e');
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+}
+/* .clientlogo{
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: url();
+    background-size: 60px 60px;
+    border-radius: 50px;
+} */
+
+.info {
+    display: block;
+    margin-left: 0;
+}
+.title{
+    float: right;
+}
+.title p{
+    text-align: right;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabletitle{
+    font-size: 0.5em;
+    background: #eee;
+}
+.service{
+    border-bottom: 1px solid #eee;
+}
+.item{
+    width: 24mm;
+}
+.itemtext {
+    font-size: 0.5em;
+}
+#legalcopy {
+    margin-top: 5mm;
+}
